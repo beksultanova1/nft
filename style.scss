@@ -1,0 +1,444 @@
+@import "mixsins";
+@import "global";
+@import "varubles";
+@import "reset";
+
+#nftBlock{
+  .nftBlock{
+    @include between;
+    position: absolute;
+    left: 7%;
+     a{
+       color:$cWhite ;
+       font-size: 18px;
+       line-height: 20px;
+       margin: 0 25px 0;
+     }
+    &--blocks{
+      img{
+        position: absolute;
+        margin-left:20%;
+        margin-top: -30px;
+      }
+      button{
+        left: 320%;
+        position: relative;
+        padding: 8px 30px;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color:$cWhite;
+        background: #D400B3;
+        border: 2px solid #D400B3;
+        border-radius: 2px;
+      }
+      button:hover{
+        background: transparent;
+        border:white 2px solid;
+      }
+    }
+  }
+}
+
+#sectionNft{
+  .sectionNft{
+    position: absolute;
+    padding-top:10%;
+    margin-left: 30px;
+     h1{
+       width: 50%;
+       color:$cWhite;
+       font-size: 84px;
+       line-height: 100px;
+     }
+    img{
+       position:relative;
+       left: 40.8%;
+    }
+    p{
+      position: relative;
+      margin-top: -12%;
+      width: 50%;
+      color: $cGray;
+      font-size: 20px;
+      line-height: 32px;
+    }
+    &--log{
+      position: absolute;
+      img{
+        position:absolute;
+        left: -38%;
+        margin-top: -30%;
+      }
+        h2{
+          @include jCenter;
+          margin-left: 50px;
+          margin-top: -20%;
+          position: relative;
+          color: $cWhite;
+          font-size: 32px;
+          line-height: 44px;
+        }
+      }
+    &--title{
+      background: #262627;
+      margin-left: -10%;
+      padding: 150px;
+      @include between;
+      p1{
+        position: relative;
+        width: 40%;
+        color: $cGray;
+        font-size: 20px;
+        line-height: 32px;
+        margin-left: -6%;
+      }
+    }
+      &--titleWeb{
+      }
+    &--desc{
+      @include between;
+      svg{
+        margin: 40px;
+      }
+    }
+    &--webs{
+      @include between;
+      h6{
+        color: $cGray;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+#slider{
+  padding: 80% 0;
+  .slider{
+    background: #262627;
+    width: 110%;
+    margin-left: -4.9%;
+
+    .swiper {
+      padding: 50px 0;
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-wrapper{
+
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+#createNft{
+  .createNft{
+    h1{
+      padding: 51px;
+      margin-top: -70%;
+      text-align: center;
+      color: $cWhite;
+      font-size: 52px;
+      line-height: 64px;
+    }
+     &--create{
+       @include between;
+       &--desc{
+         padding: 30px;
+         width: 27%;
+         height: 20%;
+         text-align: left;
+         background: #262627;
+         border: 1px solid rgba(229, 229, 229, 0.5);
+         border-radius: 2px;
+         h4{
+           margin: 20px 0;
+           color: $cWhite;
+           font-size: 23px;
+           line-height: 32px;
+         }
+         h6{
+           color: $cGray;
+           font-size: 16px;
+           line-height: 26px;
+         }
+       }
+     }
+  }
+}
+
+#weekNft{
+  .weekNft{
+    padding: 160px 0;
+    h1{
+      color: $cWhite;
+      font-size: 52px;
+      line-height: 64px;
+    }
+    p2{
+      color: $cGray;
+      font-size: 20px;
+      line-height: 32px;
+    }
+   &--week{
+     padding: 60px 0;
+     h2{
+       color: $cWhite;
+       font-size: 31px;
+       line-height: 44px;
+     }
+     h5{
+       margin: 20px 0 10px;
+       color: $cGray;
+       font-size: 16px;
+       line-height: 20px;
+     }
+     span{
+       margin-left: 26%;
+       color:$cPink;
+       font-size: 16px;
+       line-height: 20px;
+     }
+   }
+    &--title{
+      margin-left: 57%;
+      margin-top: -163%;
+    }
+    &--jason{
+      padding: 60px 0;
+      h2{
+        color: $cWhite;
+        font-size: 31px;
+        line-height: 44px;
+      }
+      h5{
+        margin: 20px 0 10px;
+        color: $cGray;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      span{
+        margin-left: 61%;
+        color:$cPink;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      svg{
+        margin-top: -120%;
+      }
+    }
+    svg{
+      margin-left: 68%;
+    }
+    h4{
+      @include between;
+      margin-left:65%;
+      color:$cPink;
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+}
+
+#popular{
+  .popular{
+    @include between;
+    &--pop{
+      background: #262627;
+      width: 50%;
+      padding: 30px 50px;
+      margin-left: -12%;
+      svg{
+        margin-left: 20%;
+      }
+      h4{
+        margin-left: 20%;
+        color:$cPink;
+        font-size: 18px;
+        line-height: 20px;
+      }
+      h6{
+        padding: 26px 0;
+        color:$cGray;
+        font-size: 20px;
+        line-height: 32px;
+        margin-left: 20%;
+      }
+      }
+    &--artist{
+      h1{
+        color:$cWhite;
+        font-size: 52px;
+        line-height: 64px;
+      }
+    }
+  }
+}
+
+#mason{
+  background: #262627;
+  .mason{
+    @include between;
+    padding: 120px 0;
+    position: relative;
+    &--dan{
+      margin-top: -60px;
+      margin-left: 30%;
+      img{
+       margin-left: 10%;
+      }
+      h3{
+        margin-left:-25px;
+        color:$cWhite;
+        font-size: 32px;
+        line-height: 44px;
+        padding: 8px 0;
+      }
+      button{
+        margin-left: 10%;
+        padding: 2px 20px;
+        color:$cWhite;
+        font-size: 18px;
+        line-height: 20px;
+        background: #D400B3;
+        border: 2px solid #D400B3;
+        border-radius: 1px;
+      }
+    }
+  }
+}
+
+#backed{
+  .backed{
+    padding: 150px;
+    h1{
+      text-align: center;
+      color:$cWhite;
+      font-size: 52px;
+      line-height: 64px;
+    }
+    p{
+      text-align: center;
+      color:$cGray;
+      font-size: 20px;
+      line-height: 32px;
+    }
+    &--ped{
+      @include between;
+      padding:80px 0;
+      }
+    &--ked{
+      background: rgba(196, 196, 196, 0.2);
+      border: 1px solid rgba(229, 229, 229, 0.3);
+      border-radius: 1px;
+      width: 20%;
+      padding: 60px 85px;
+      h5{
+        text-align: center;
+        color: $cWhite;
+        font-size: 20px;
+      }
+      span{
+        color: $crGray;
+      }
+    }
+    &--foxAl{
+      @include between;
+      margin-top: -12%;
+    }
+    &--zoos{
+      margin-top: -34px;
+      @include between;
+    }
+    &--img{
+      @include between;
+      margin-top: -32%;
+    }
+    &--never{
+      margin-top: -12%;
+      background: #262627;
+      padding: 150px;
+      border-radius: 2px solid;
+      &--drop{
+      }
+      &--input11{
+      }
+      input{
+        margin: 20px 0;
+        padding: 10px 200px;
+        background: rgba(196, 196, 196, 0.1);
+      }
+      button{
+        background: #D400B3;
+        border: 2px solid #D400B3;
+        border-radius: 1px;
+        padding: 10px 50px;
+      }
+      button:hover{
+          background: transparent;
+          border:white 2px solid;
+      }
+    }
+  }
+}
+
+#footer{
+  .footer{
+    @include between;
+    svg{
+    }
+    &--food{
+      margin-right:15px;
+      a{
+        margin: 0 15px 0;
+        color:$cGray;
+        font-size: 18px;
+        line-height: 20px;
+      }
+    }
+    &--linkedin{
+      a{
+        color: $cWhite;
+        padding: 10px 10px;
+        background: rgba(196, 196, 196, 0.2);
+        border: 1px solid rgba(229, 229, 229, 0.3);
+        border-radius: 0px;
+        margin:0 15px 0;
+      }
+    }
+    &--hrLin{
+     margin:30px 0;
+    }
+    &--more{
+      @include evenly;
+      h5{
+        color:$crGray;
+        font-size: 16px;
+      }
+    }
+  }
+}

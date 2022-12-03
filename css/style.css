@@ -1,0 +1,460 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-weight: 400;
+  letter-spacing: 1px;
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #0c0202;
+}
+
+#nftBlock .nftBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  left: 7%;
+}
+#nftBlock .nftBlock a {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 25px 0;
+}
+#nftBlock .nftBlock--blocks img {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: -30px;
+}
+#nftBlock .nftBlock--blocks button {
+  left: 320%;
+  position: relative;
+  padding: 8px 30px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #D400B3;
+  border: 2px solid #D400B3;
+  border-radius: 2px;
+}
+#nftBlock .nftBlock--blocks button:hover {
+  background: transparent;
+  border: white 2px solid;
+}
+
+#sectionNft .sectionNft {
+  position: absolute;
+  padding-top: 10%;
+  margin-left: 30px;
+}
+#sectionNft .sectionNft h1 {
+  width: 50%;
+  color: #FFFFFF;
+  font-size: 84px;
+  line-height: 100px;
+}
+#sectionNft .sectionNft img {
+  position: relative;
+  left: 40.8%;
+}
+#sectionNft .sectionNft p {
+  position: relative;
+  margin-top: -12%;
+  width: 50%;
+  color: #E5E5E5;
+  font-size: 20px;
+  line-height: 32px;
+}
+#sectionNft .sectionNft--log {
+  position: absolute;
+}
+#sectionNft .sectionNft--log img {
+  position: absolute;
+  left: -38%;
+  margin-top: -30%;
+}
+#sectionNft .sectionNft--log h2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: -20%;
+  position: relative;
+  color: #FFFFFF;
+  font-size: 32px;
+  line-height: 44px;
+}
+#sectionNft .sectionNft--title {
+  background: #262627;
+  margin-left: -10%;
+  padding: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#sectionNft .sectionNft--title p1 {
+  position: relative;
+  width: 40%;
+  color: #E5E5E5;
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: -6%;
+}
+#sectionNft .sectionNft--desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#sectionNft .sectionNft--desc svg {
+  margin: 40px;
+}
+#sectionNft .sectionNft--webs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#sectionNft .sectionNft--webs h6 {
+  color: #E5E5E5;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 5px;
+}
+
+#slider {
+  padding: 80% 0;
+}
+#slider .slider {
+  background: #262627;
+  width: 110%;
+  margin-left: -4.9%;
+}
+#slider .slider .swiper {
+  padding: 50px 0;
+  width: 100%;
+  height: 100%;
+}
+#slider .slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#slider .slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#createNft .createNft h1 {
+  padding: 51px;
+  margin-top: -70%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 52px;
+  line-height: 64px;
+}
+#createNft .createNft--create {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#createNft .createNft--create--desc {
+  padding: 30px;
+  width: 27%;
+  height: 20%;
+  text-align: left;
+  background: #262627;
+  border: 1px solid rgba(229, 229, 229, 0.5);
+  border-radius: 2px;
+}
+#createNft .createNft--create--desc h4 {
+  margin: 20px 0;
+  color: #FFFFFF;
+  font-size: 23px;
+  line-height: 32px;
+}
+#createNft .createNft--create--desc h6 {
+  color: #E5E5E5;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#weekNft .weekNft {
+  padding: 160px 0;
+}
+#weekNft .weekNft h1 {
+  color: #FFFFFF;
+  font-size: 52px;
+  line-height: 64px;
+}
+#weekNft .weekNft p2 {
+  color: #E5E5E5;
+  font-size: 20px;
+  line-height: 32px;
+}
+#weekNft .weekNft--week {
+  padding: 60px 0;
+}
+#weekNft .weekNft--week h2 {
+  color: #FFFFFF;
+  font-size: 31px;
+  line-height: 44px;
+}
+#weekNft .weekNft--week h5 {
+  margin: 20px 0 10px;
+  color: #E5E5E5;
+  font-size: 16px;
+  line-height: 20px;
+}
+#weekNft .weekNft--week span {
+  margin-left: 26%;
+  color: #D400B3;
+  font-size: 16px;
+  line-height: 20px;
+}
+#weekNft .weekNft--title {
+  margin-left: 57%;
+  margin-top: -163%;
+}
+#weekNft .weekNft--jason {
+  padding: 60px 0;
+}
+#weekNft .weekNft--jason h2 {
+  color: #FFFFFF;
+  font-size: 31px;
+  line-height: 44px;
+}
+#weekNft .weekNft--jason h5 {
+  margin: 20px 0 10px;
+  color: #E5E5E5;
+  font-size: 16px;
+  line-height: 20px;
+}
+#weekNft .weekNft--jason span {
+  margin-left: 61%;
+  color: #D400B3;
+  font-size: 16px;
+  line-height: 20px;
+}
+#weekNft .weekNft--jason svg {
+  margin-top: -120%;
+}
+#weekNft .weekNft svg {
+  margin-left: 68%;
+}
+#weekNft .weekNft h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 65%;
+  color: #D400B3;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+#popular .popular {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#popular .popular--pop {
+  background: #262627;
+  width: 50%;
+  padding: 30px 50px;
+  margin-left: -12%;
+}
+#popular .popular--pop svg {
+  margin-left: 20%;
+}
+#popular .popular--pop h4 {
+  margin-left: 20%;
+  color: #D400B3;
+  font-size: 18px;
+  line-height: 20px;
+}
+#popular .popular--pop h6 {
+  padding: 26px 0;
+  color: #E5E5E5;
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: 20%;
+}
+#popular .popular--artist h1 {
+  color: #FFFFFF;
+  font-size: 52px;
+  line-height: 64px;
+}
+
+#mason {
+  background: #262627;
+}
+#mason .mason {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 120px 0;
+  position: relative;
+}
+#mason .mason--dan {
+  margin-top: -60px;
+  margin-left: 30%;
+}
+#mason .mason--dan img {
+  margin-left: 10%;
+}
+#mason .mason--dan h3 {
+  margin-left: -25px;
+  color: #FFFFFF;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 8px 0;
+}
+#mason .mason--dan button {
+  margin-left: 10%;
+  padding: 2px 20px;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 20px;
+  background: #D400B3;
+  border: 2px solid #D400B3;
+  border-radius: 1px;
+}
+
+#backed .backed {
+  padding: 150px;
+}
+#backed .backed h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 52px;
+  line-height: 64px;
+}
+#backed .backed p {
+  text-align: center;
+  color: #E5E5E5;
+  font-size: 20px;
+  line-height: 32px;
+}
+#backed .backed--ped {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 0;
+}
+#backed .backed--ked {
+  background: rgba(196, 196, 196, 0.2);
+  border: 1px solid rgba(229, 229, 229, 0.3);
+  border-radius: 1px;
+  width: 20%;
+  padding: 60px 85px;
+}
+#backed .backed--ked h5 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+#backed .backed--ked span {
+  color: #7e7b7b;
+}
+#backed .backed--foxAl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -12%;
+}
+#backed .backed--zoos {
+  margin-top: -34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#backed .backed--img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -32%;
+}
+#backed .backed--never {
+  margin-top: -12%;
+  background: #262627;
+  padding: 150px;
+  border-radius: 2px solid;
+}
+#backed .backed--never input {
+  margin: 20px 0;
+  padding: 10px 200px;
+  background: rgba(196, 196, 196, 0.1);
+}
+#backed .backed--never button {
+  background: #D400B3;
+  border: 2px solid #D400B3;
+  border-radius: 1px;
+  padding: 10px 50px;
+}
+#backed .backed--never button:hover {
+  background: transparent;
+  border: white 2px solid;
+}
+
+#footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#footer .footer--food {
+  margin-right: 15px;
+}
+#footer .footer--food a {
+  margin: 0 15px 0;
+  color: #E5E5E5;
+  font-size: 18px;
+  line-height: 20px;
+}
+#footer .footer--linkedin a {
+  color: #FFFFFF;
+  padding: 10px 10px;
+  background: rgba(196, 196, 196, 0.2);
+  border: 1px solid rgba(229, 229, 229, 0.3);
+  border-radius: 0px;
+  margin: 0 15px 0;
+}
+#footer .footer--hrLin {
+  margin: 30px 0;
+}
+#footer .footer--more {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#footer .footer--more h5 {
+  color: #7e7b7b;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

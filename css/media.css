@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  #nftBlock .nftBlock--blocks img {
+    margin-left: 5%;
+    margin-top: -30px;
+    max-width: 100vh;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 557px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    max-width: 414px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    max-width: 380px;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    max-width: 360px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
